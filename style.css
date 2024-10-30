@@ -1,0 +1,101 @@
+body{
+	background-color:#FFE3E3;
+}
+
+
+
+
+
+
+
+.photo {
+	
+
+text-align:center;	
+
+
+	
+}
+
+
+
+.wisses{
+	
+
+text-align:center;	
+font-size:20px;
+font_weight: 70;
+margin-bottom 20px;
+color:#D76C82;
+
+
+	
+}
+
+
+.happy{
+	text-align:center;
+	font-size:50px;
+	color:#789DBC;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+		position:absolute;
+		left:50%;
+		top:100%;
+		transform:translate(-50%,-50%);
+	}
+	.love{
+		color:#9B7EBD;
+	}
+	
+	
+	
+	.diya{
+		width:200px;
+		height:100px;
+		background:#ff3838;
+		border-bottom-left-radius:100px;
+		border-bottom-right-radius:100px;
+		position:relative;
+		left:50%;
+		transform:translateX(-50%)
+	}
+	.diya:before{
+		position:absolute;
+		content:"";
+		width:200px;
+		height:60px;
+		background:#f1c40f;
+		border-radius:50%;
+		border:10px solid #222;
+		box-sizing:border-box;
+		top:-30px
+	}
+	.diya:after{
+		position:absolute;
+		content:"";
+		width:50px;
+		height:150px;
+		background:#f1c40f;
+		border-radius:50%;
+		bottom:90%;
+		box-shadow:0px 0px 30px #f1c40f, 0px 0px 50px #f1c40f;
+		animation:animate 2s ease infinite;
+		transform-origin:bottom
+	}
+	@keyframes animate{
+		0%{ transform:scaleY(1) }
+		50%{ transform: scaleY(1.07) scaleX(1.05) }
+		100%{ transform:scaleY(1) }
+	}
+	.message{
+		text-align:center;
+		color:#fff;
+	}
+	
+	button{
+		background-color:black;
+		color:white;
+	}
